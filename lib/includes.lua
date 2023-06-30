@@ -1,15 +1,10 @@
 -- required and included files
 
 -- required for multiple files
-MusicUtil = require "musicutil"
-tabutil = require "tabutil"
+-- MusicUtil = require "musicutil"
+-- tabutil = require "tabutil"
 
--- required for flora.lua
 UI = require "ui"
--- polls = include "flora/lib/polls"
-
--- required for parameters.lua
-cs = require 'controlspec'
 
 -- required for multiple files
 vector = include("double_pendulum/lib/vector")

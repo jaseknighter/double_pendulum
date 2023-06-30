@@ -8,17 +8,17 @@ local draw_top_nav = function()
   screen.level(0)
   screen.move(4,7)
 
-  if pages.index == 1 then
-    screen.text("page 1")
-  elseif pages.index == 2 then
-    screen.text("page 2")
-  elseif pages.index == 3 then
-    screen.text("page 3")
-  elseif pages.index == 4 then
-    screen.text("page 4")
-  elseif pages.index == 5 then
-    screen.text("page 5")
-  end
+  -- if pages.index == 1 then
+  --   screen.text("page 1")
+  -- elseif pages.index == 2 then
+  --   screen.text("page 2")
+  -- elseif pages.index == 3 then
+  --   screen.text("page 3")
+  -- elseif pages.index == 4 then
+  --   screen.text("page 4")
+  -- elseif pages.index == 5 then
+  --   screen.text("page 5")
+  -- end
   -- navigation marks
   screen.level(0)
   screen.rect(0,(pages.index-1)/5*10,2,2)
